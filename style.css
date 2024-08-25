@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+    margin-top: 100px
+}
+
+.dice{
+    color: black;
+    padding-top: 12px;
+    border-radius: 10px;
+    font-size: 32px;
+    background-color: rgb(210, 208, 208);
+    border: 2px solid black;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+
+}
+.roll{
+    animation-duration: 1s;
+    animation-name: rotate;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
